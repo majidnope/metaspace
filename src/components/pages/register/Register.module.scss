@@ -8,4 +8,15 @@
     position: absolute;
     top: 0;
     height: 33%;
+    #reg_form {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        p {
+            color: white;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
 }

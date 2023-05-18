@@ -1,0 +1,17 @@
+.brand {
+    filter: brightness(1) drop-shadow(2px 23px 20px black);
+
+    animation: glow 7s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+        filter: brightness(1) drop-shadow(2px 23px 20px black);
+    }
+    50% {
+        filter: brightness(0) drop-shadow(2px 23px 20px black);
+    }
+    100% {
+        filter: brightness(1) drop-shadow(2px 23px 20px black);
+    }
+}
