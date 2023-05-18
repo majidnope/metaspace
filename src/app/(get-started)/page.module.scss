@@ -1,0 +1,23 @@
+.main {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  position: relative;
+  .brand {
+    width: 100%;
+    height: 30%;
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      color: #585858c2;
+    }
+  }
+}
