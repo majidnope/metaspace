@@ -1,0 +1,19 @@
+.metaBtn {
+    padding: 15px;
+    width: fit-content;
+    height: 30px;
+    border-radius: 4px;
+    background: linear-gradient(50deg, rgb(66, 66, 66) 50%, black 50%);
+    color: rgb(153, 153, 153);
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s all;
+    user-select: none;
+    &:hover {
+        opacity: 0.5;
+    }
+}
