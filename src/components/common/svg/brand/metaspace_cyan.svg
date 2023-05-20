@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="main" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 359.21 405.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #020202;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="80.41" y1="351.14" x2="-48.17" y2="270.14" gradientUnits="userSpaceOnUse">
+      <stop offset=".15" stop-color="#49c5da"/>
+      <stop offset=".23" stop-color="#48c1d6"/>
+      <stop offset=".29" stop-color="#45b8cb"/>
+      <stop offset=".35" stop-color="#41a8b9"/>
+      <stop offset=".41" stop-color="#3b91a0"/>
+      <stop offset=".47" stop-color="#34747f"/>
+      <stop offset=".53" stop-color="#2b5157"/>
+      <stop offset=".58" stop-color="#202728"/>
+      <stop offset=".59" stop-color="#1e1e1e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="248.78" y1="391.13" x2="377.87" y2="270.57" gradientUnits="userSpaceOnUse">
+      <stop offset=".15" stop-color="#49c5da"/>
+      <stop offset=".4" stop-color="#48c3d8"/>
+      <stop offset=".49" stop-color="#47bdd1"/>
+      <stop offset=".56" stop-color="#44b2c5"/>
+      <stop offset=".61" stop-color="#40a3b4"/>
+      <stop offset=".65" stop-color="#3b909e"/>
+      <stop offset=".69" stop-color="#357883"/>
+      <stop offset=".73" stop-color="#2d5b62"/>
+      <stop offset=".76" stop-color="#253a3e"/>
+      <stop offset=".78" stop-color="#1e1e1e"/>
+    </linearGradient>
+  </defs>
+  <polygon id="LR-lg" class="cls-2" points="359.21 84.57 299.07 135.71 359.21 320.57 359.21 84.57"/>
+  <polygon id="LL-lg" class="cls-2" points="0 84.57 60.14 135.71 0 320.57 0 84.57"/>
+  <polygon id="LL-sm" class="cls-3" points="15.97 269.69 0 321.22 102.41 405.86 15.97 269.69"/>
+  <polygon id="LR-sm" class="cls-1" points="343.24 269.69 359.21 321.22 256.81 405.86 343.24 269.69"/>
+  <polygon id="LBODY" class="cls-2" points="0 0 0 31.71 45.85 67.76 45.85 91.65 0 52.88 0 84.57 179.51 239.43 179.51 144 0 0"/>
+  <polygon id="RBODY" class="cls-2" points="359.01 0 359.01 31.71 313.16 67.76 313.16 91.65 359.01 52.88 359.01 84.57 179.51 239.43 179.51 144 359.01 0"/>
+</svg>

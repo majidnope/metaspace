@@ -1,0 +1,32 @@
+.holder {
+    width: 78px;
+    aspect-ratio: 1/1;
+    transition: .5s all;
+    background-color: #71d5f3;
+    border-radius: 50%;
+    display: flex;
+    transform: translateX(-7px);
+    align-items: center;
+    justify-content: center;
+    filter: blur(38px);
+    position: absolute;
+
+    &::before {
+        content: "";
+        position: absolute;
+        filter: blur(50px);
+        transform: translateX(94px);
+        width: 33px;
+        aspect-ratio: 1/1;
+        background-color: rgb(255, 255, 255);
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        filter: blur(50px);
+        transform: translateX(-76px);
+        width: 36px;
+        aspect-ratio: 1/1;
+        background-color: rgb(255, 255, 255);
+    }
+}

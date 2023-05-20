@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="main" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359.21 405.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #020202;
+      }
+
+      .cls-2 {
+        fill: #1e1e1e;
+      }
+    </style>
+  </defs>
+  <polygon id="LR-lg" class="cls-1" points="359.21 84.57 299.07 135.71 359.21 320.57 359.21 84.57"/>
+  <polygon id="LL-lg" class="cls-1" points="0 84.57 60.14 135.71 0 320.57 0 84.57"/>
+  <polygon id="LL-sm" class="cls-2" points="15.97 269.69 0 321.22 102.41 405.86 15.97 269.69"/>
+  <polygon id="LR-sm" class="cls-2" points="343.24 269.69 359.21 321.22 256.81 405.86 343.24 269.69"/>
+  <polygon id="LBODY" class="cls-1" points="0 0 0 31.71 45.85 67.76 45.85 91.65 0 52.88 0 84.57 179.51 239.43 179.51 144 0 0"/>
+  <polygon id="RBODY" class="cls-1" points="359.01 0 359.01 31.71 313.16 67.76 313.16 91.65 359.01 52.88 359.01 84.57 179.51 239.43 179.51 144 359.01 0"/>
+</svg>

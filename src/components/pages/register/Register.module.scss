@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    background: linear-gradient(142deg, #222127 75%, #10101087 32%, #14555a 84%, #00d8e9 98%);
+    box-shadow: -1px -2px 20px 0 rgb(0 0 0 / 91%);
+    border-radius: 0 0 27px 0;
+
+    transition: 0.5s all;
+    position: absolute;
+    top: 0;
+    height: 33%;
+    #reg_form {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        p {
+            color: white;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+}

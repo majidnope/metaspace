@@ -1,0 +1,36 @@
+.layout {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-column: 100px;
+    grid-template-areas:
+        "sidebar header header"
+        "sidebar body info";
+
+    grid-template-rows: 40px;
+    grid-template-columns: 300px auto 200px;
+
+    .sidebar {
+        grid-area: sidebar;
+        background-color: blue;
+        height: 100%;
+    }
+    .info {
+        grid-area: info;
+        background-color: rgb(184, 184, 184);
+        height: 100%;
+        width: 100%;
+    }
+    .header {
+        grid-area: header;
+        background-color: rgb(223, 23, 23);
+        width: 100%;
+    }
+    .body {
+        grid-area: body;
+        background-color: rgb(245, 134, 8);
+        width: 100%;
+    }
+}

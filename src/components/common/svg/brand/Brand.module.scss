@@ -1,0 +1,19 @@
+$shadow: drop-shadow(2px 23px 17px rgba(0, 0, 0, 0.973));
+
+.brand {
+    filter: brightness(1) $shadow;
+
+    animation: glow 7s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+        filter: brightness(1) $shadow;
+    }
+    50% {
+        filter: brightness(0) $shadow;
+    }
+    100% {
+        filter: brightness(1) $shadow;
+    }
+}

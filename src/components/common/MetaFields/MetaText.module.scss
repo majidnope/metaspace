@@ -1,0 +1,26 @@
+.holder {
+    user-select: none;
+    min-width: 100px;
+    
+    height: 38px;
+    box-shadow: inset 3px 2px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    label {
+        position: absolute;
+        right: 0;
+    }
+    input {
+        padding-left: 10px;
+        color: white;
+        border: none;
+        height: 100%;
+        width: 100%;
+        min-width: 100px;
+        background: none;
+        outline: none;
+    }
+}
