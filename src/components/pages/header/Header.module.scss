@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "search info";
+    grid-template-columns: auto 190px;
+    padding: 10px;
+    .search {
+        grid-area: search;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        .search_bar {
+            width: 70%;
+            height: 100%;
+
+            border-radius: 50px;
+            overflow: hidden;
+            border: solid 1px rgb(76 76 76 / 70%);
+            input {
+                padding: auto;
+                padding: 0 10px 0 10px;
+                font-size: 15px;
+                width: 100%;
+                height: 100%;
+                border: none;
+                color: rgb(233, 233, 233);
+                outline: none;
+            }
+        }
+    }
+    .info {
+        grid-area: info;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}

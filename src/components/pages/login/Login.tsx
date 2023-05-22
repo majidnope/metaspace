@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import sx from "./login.module.scss";
 import { Gear } from "@/components/common/svg/gear/Gear";
 
-import { signIn, signOut} from "next-auth/react";
+import { signIn, signOut } from "next-auth/react";
 import GoogleIcon from "@mui/icons-material/Google";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -12,8 +12,6 @@ interface LoginProps {
 }
 
 const Login: React.FC<LoginProps> = ({ open, castHandle }) => {
-  
-
   return (
     <div
       className={sx.container}
