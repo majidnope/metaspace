@@ -1,19 +1,21 @@
 .container {
     width: 100%;
     padding: 10px;
-    background: linear-gradient(326deg, #222127 75%, #101010 32%, #14555a 84%, #00d8e9 98%);
+    background: linear-gradient(326deg, rgb(34 33 39 / 35%) 75%, rgba(16, 16, 16, 0) 32%, #14555a 84%, #00d8e9 98%);
     transition: 1s all;
     position: absolute;
     bottom: 0;
-    height: 33%;
-    border-radius: 27px 0 0 0;
+    backdrop-filter: blur(0);
+    z-index: 1;
+    height: 100%;
 
     .holder {
+        z-index: 3;
         position: absolute;
         height: 70%;
         width: 35%;
         left: 50%;
-        top: 50%;
+        top: 55%;
         transform: translate(-50%, -50%);
         display: flex;
         align-items: center;
@@ -21,7 +23,7 @@
         gap: 10px;
         .icon {
             cursor: pointer;
-            color: rgb(68, 68, 68);
+            color: rgb(129 126 126);
             transition: 0.5s all;
             &:hover {
                 scale: 1.3;

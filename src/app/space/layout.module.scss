@@ -17,9 +17,20 @@
         background-color: blue;
         height: 100%;
         .sideHead {
+            display: grid;
+            grid-template-areas: "logo tittle title";
+            grid-template-columns: 50px auto;
+            place-items: center;
+            padding: 10px;
             width: 100%;
             height: 60px;
-            background-color: #1e1e1e;
+            background: linear-gradient(125deg, #a30c0c, #1e1e1e);
+            svg{
+                fill: black
+            }
+            h3{
+                color: #857e73;
+            }
         }
     }
     .info {

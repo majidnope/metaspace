@@ -3,6 +3,11 @@ import React from "react";
 import sx from "./layout.module.scss";
 import { motion as m } from "framer-motion";
 import { Header } from "@/components/pages/header/Header";
+import Image from "next/image";
+import Logo from "@/assets/svg/metaspace.svg";
+import { routes } from "@/config/routes";
+import NavPanel from "@/components/pages/navpanel/NavPanel";
+
 const SpaceLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className={sx.layout}>
@@ -22,7 +27,11 @@ const SpaceLayout = ({ children }: { children: React.ReactNode }) => {
         transition={{ duration: 1 }}
         className={sx.sidebar}
       >
-        <div className={sx.sideHead}>l</div>
+        <div className={sx.sideHead}>
+          <Logo width="40px" />
+          <h3>Metaspace</h3>
+        </div>
+        <NavPanel routes={routes} />
       </m.aside>
       {/* body */}
       <m.div

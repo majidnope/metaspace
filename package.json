@@ -30,6 +30,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@svgr/webpack": "^8.0.1"
+    "@svgr/webpack": "^8.0.1",
+    "react-docgen-typescript-loader": "^3.7.2"
   }
 }

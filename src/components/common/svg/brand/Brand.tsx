@@ -1,5 +1,5 @@
 import React from "react";
-import BrandLogo from "./metaspace_cyan.svg";
+import BrandLogo from "@/assets/svg/metaspace_cyan.svg";
 import sx from "./Brand.module.scss";
 const Brand: React.FC<{ scale: number; blink: boolean }> = ({
   scale = 1,

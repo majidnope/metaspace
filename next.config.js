@@ -35,10 +35,9 @@ const nextConfig = {
         hostname: "avatars.githubusercontent.com",
       },
       {
-        protocol:"https",
-        hostname:"lh3.googleusercontent.com"
-
-      }
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+      },
     ],
   },
   env: {
@@ -47,6 +46,7 @@ const nextConfig = {
     GOOGLE_CLIENT_SECRET: "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",
     GITHUB_SECRET: "8f7e9ea69c3b6a791befdbe8e50554e9290a5f5d",
     GITHUB_ID: "Iv1.f50c06a0e1bd184e",
+    NEXTAUTH_URL: "http://localhost:3000",
   },
 };
 

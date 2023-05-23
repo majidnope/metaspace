@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import sx from "./login.module.scss";
 import { Gear } from "@/components/common/svg/gear/Gear";
 
@@ -12,16 +12,31 @@ interface LoginProps {
 }
 
 const Login: React.FC<LoginProps> = ({ open, castHandle }) => {
+
+  const [blur, setBlur] = useState(0);
   return (
     <div
       className={sx.container}
-      style={{ transform: `translateY(${open ? "100%" : "0%"})` }}
+      style={{
+        transform: `translateY(${open ? "100%" : "0%"})`,
+        backdropFilter: `blur(${blur}px)`,
+      }}
     >
       <Gear spin={open} />
 
       <div className={sx.holder}>
-        <GoogleIcon className={sx.icon} onClick={() => signIn("google")} />
-        <GitHubIcon className={sx.icon} onClick={() => signIn("github")} />
+        <GoogleIcon
+          onMouseOver={() => setBlur(3)}
+          onMouseOut={() => setBlur(0)}
+          className={sx.icon}
+          onClick={() => signIn("google")}
+        />
+        <GitHubIcon
+          onMouseOver={() => setBlur(3)}
+          onMouseOut={() => setBlur(0)}
+          className={sx.icon}
+          onClick={() => signIn("github")}
+        />
       </div>
     </div>
   );

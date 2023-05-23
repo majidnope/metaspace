@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import GearSvg from "./gear.svg";
+import GearSvg from "@/assets/svg/gear.svg";
 import sx from "./Gear.module.scss";
 
 export const Gear: React.FC<{
